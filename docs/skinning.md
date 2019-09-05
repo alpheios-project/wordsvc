@@ -78,6 +78,9 @@ Variable name | Default | Description
  `--alpheios-compact-toolbar-bg` | `--alpheios-toolbar-bg-color` | Mobile toolbar background color
  `--alpheios-compact-toolbar-icon-color` | `--alpheios-icon-color` | Mobile toolbar icon color
  `--alpheios-compact-popup-progress-bar-line` | `--alpheios-toolbar-bg-color` | Color of progress bar on Mobile
+ `--alpheios-action-panel-close-icon-color` | `--alpheios-btn-primary-bg-color` | Action Panel/Action Menu - close icon color
+ `--alpheios-action-panel-close-icon-color-hover` | `--alpheios-btn-primary-bg-color-hover` | Action Panel/Action Menu - close icon color - __hover__ state
+ `--alpheios-action-panel-close-icon-color-pressed` | `--alpheios-btn-primary-bg-color-pressed` | Action Panel/Action Menu - close icon color - __pressed__ state
  Popup (Desktop) |  | 
  `--alpheios-desktop-popup-header-bg` | `--alpheios-toolbar-bg-color` | Popup header background color
  `--alpheios-desktop-popup-body-bg` | `--alpheios-text-bg-color` | Popup body background color
@@ -135,6 +138,8 @@ Variable name | Default | Description
  `--alpheios-inflect-match-suff-color` | `--alpheios-text-color`  | Inflections Browser - font color for matched suffix
  `--alpheios-inflect-full-match-suff-bg` | `--alpheios-highlight-color` | Inflections Browser - background color for full matched suffix (features + suffix match)
  `--alpheios-inflect-full-match-suff-color` | `--alpheios-text-color` | Inflections Browser - font color for full matched suffix (features + suffix match)
+ `--alpheios-inflect-footnote-close-icon-color` | `--alpheios-text-color` | Inflections - footnote close icon color
+ `--alpheios-inflect-footnote-close-icon-color-hover` | `--alpheios-text-color` | Inflections - footnote close icon color - __hover__ state
  Word usage |  | 
  `--alpheios-usage-progress-color` | `--alpheios-highlight-dark-color` | Word Usage Tab - progress text color
  `--alpheios-usage-link-color` | `--alpheios-highlight-dark-color` | Word Usage Tab - source link, show/hide limits link font color

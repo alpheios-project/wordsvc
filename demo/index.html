@@ -28,7 +28,7 @@
           import ('../dist/alpheios-embedded.js').then(embedLib => {
             console.info(`Embedded library has been imported successfully`)
 
-            window.AlpheiosEmbed.importDependencies({ mode: 'cdn' }).then(Embedded => {
+            window.AlpheiosEmbed.importDependencies({ mode: 'development' }).then(Embedded => {
               new Embedded(
                 {
                   clientId: 'alpheios-dev',
